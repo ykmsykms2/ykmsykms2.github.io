@@ -1,6 +1,6 @@
 {
-  "name": "PWA Test",
-  "short_name": "PWA",
+  "name": "PWA Test Application",
+  "short_name": "PWA Test",
   "background_color": "#ccc",
   "icons": [{
       "src": "./img/ico_256_256.png",
