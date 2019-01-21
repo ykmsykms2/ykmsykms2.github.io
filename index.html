@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>PWA Test</title>
-<link rel="manifest" href="/pwa-test/manifest.json">
+<link rel="manifest" href="/manifest.json">
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
 
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/pwa-test/service-worker.js');
+  navigator.serviceWorker.register('/service-worker.js');
 }
 </script>
 </head>
@@ -23,7 +23,7 @@ if ('serviceWorker' in navigator) {
 </div>
 
 <div>
-    <span onclick="window.location.reload();">再読込</span>
+    <span onclick="window.location.reload();">冝読込</span>
 </div>
 
 </body>
